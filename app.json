@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "e-com",
-    "slug": "e-com",
+    "name": "ecommerce-project",
+    "slug": "ecommerce-project",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -14,17 +14,23 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.manimart"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "bundleIdentifier": "com.host.exponent"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d98503bf-a3a0-4dd2-975e-784af5b45e3a"
+      }
     }
   }
 }
